@@ -1,0 +1,32 @@
+{{ define "admin/useredit.html" }}
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>useredit網頁</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1"> <!--響應式代碼 bootstrap要求添加-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+    <link rel="stylesheet" href="/dwz/css/style.css">
+    <script type="text/javascript" src="/dwz/js/style.js"></script>
+</head>
+<body>
+
+<h2>演示文件上傳</h2>
+
+<form action="/main/user/dodo2" method="post" enctype="multipart/form-data">
+    用戶名 :<input type="text" name="username"  placeholder="用戶名"/>
+    <br>
+    <br>
+    頭像1 :<input type="file" name="face1" />
+    <br>
+    <br>
+    頭像2 :<input type="file" name="face2" />
+    <br>
+    <br>
+    <input type="submit" value="提交">
+</form>
+
+</body>
+</html>
+{{ end }}

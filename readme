@@ -1,0 +1,11 @@
+configs 設定檔
+docs 文件集合
+global 全域變數
+internal 內部模組
+pkg 專案相關模組套件
+storage 專案產生的暫存檔案
+scripts 各種建置、安裝分析等操作的令搞稿
+third_party 協力廠商的資源工具，如Swagger UI
+
+
+
